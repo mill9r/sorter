@@ -48,7 +48,7 @@ describe('Sorter', () => {
       sorter.add(6);
       sorter.add(5);
       sorter.sort([0, 1, 2]);
-  
+
       assert.deepEqual(sorter.toArray(), [5, 6, 7]);
       assert.deepEqual(sorter.length, 3);
       assert.deepEqual(sorter.at(0), 5);
